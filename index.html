@@ -1,11 +1,5 @@
 <!DOCTYPE html>
-<!--Nombre y profesión-->
-<!--Información de contacto-->
-<!--Enlaces-->
-<!--Descripción-->
-<!--Contacto-->
-<!--Foto-->
-<html>
+<html lang="en-es">
     <head>
         <title>Joaquín Moreno</title>
 
@@ -14,6 +8,11 @@
         <!--HOJA DE ESTILOS PRINCIPAL-->
         <link rel="stylesheet" type="text/css" href="css/main.css" />
         <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+
+        <!--ICONO PESTAÑA-->
+        <link rel="icon" type="text/icon" href="img/icon_01.png" />
+
+        <link rel="stylesheet" href="https://i.icomoon.io/public/temp/9c26835347/UntitledProject/style.css">
     </head>
     <body>
         <div class="contenedor">
@@ -34,13 +33,49 @@
                 </p>
             </section>
             <section class="informacion">
-
+                    <h1>Inf<span class="color_03">or</span>m<span class="color_02">ati</span>o<span class="color_01">n</span></h1>
+                    <div>
+                        <span class="icon-earth color_01"></span>Chile
+                    </div>
+                    <div>
+                        <span class="icon-phone color_02"></span>+56 9 8765 7876
+                    </div>
+                    <div>
+                        <span class="icon-envelop color_03"></span>moreno.quinteros@outlook.com
+                    </div>
+                    <div>
+                        <span class="icon-twitter color_05"></span><a href="https://twitter.com/?lang=es" target="_blank">Twitter</a>
+                    </div>
+                    <div>
+                        <span class="icon-facebook color_06"></span><a href="https://www.facebook.com/bookerlock" target="_blank">Facebook</a>
+                    </div>
             </section>
             <div class="contacto">
-
+                <h1>C<span class="color_03">on</span>t<span class="color_02">a</span>c<span class="color_01">t</span></h1>
+                <form action="mailto:moreno.quinteros@outlook.com" method="post" enctype="text/plain">
+                    <div class="div_01">
+                        <label for="name">Full Name<br><input type="text" name="name"></label><br><br>
+                        <label for="mail">E-mail<br><input type="mail" name="mail"></label>
+                    </div>
+                    <div class="div_02">
+                        <label for="comment">Comment<br><textarea type="text" name="comment"></textarea></label><br>
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
             </div>
             <div class="enlaces">
-
+                <a href="https://www.linkedin.com/in/joaqu%C3%ADn-moreno-quinteros-2a1a03a3/" target="_blank" class="color_01">
+                    <span class="icon-linkedin"></span>
+                </a>
+                <a href="https://github.com/jamq" target="_blank" class="color_02">
+                    <span class="icon-github"></span>
+                </a>
+                <a href="https://es.stackoverflow.com/users/76531/joaqu%C3%ADn-moreno-quinteros?tab=profile" target="_blank" class="color_03">
+                    <span class="icon-stackoverflow"></span>
+                </a>
+                <a href="https://codepen.io/jm_booker/" target="_blank" class="color_04">
+                    <span class="icon-codepen"></span>
+                </a>
             </div>
         </div>
     </body>
