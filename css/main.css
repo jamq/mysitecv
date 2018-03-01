@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background: url("../img/background_01.jpg");
+    background-repeat: no-repeat;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1440px;
+    height: 80%;
+    position: relative;
+    top: 10%;
+    left: 5%;
+}
+
+.foto {
+    width: 20%;
+    height: 40%;
+    background: url("../img/photo_01.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.nombre {
+    width: 40%;
+    height: 40%;
+    background-color: #1c1d1f;
+    color: #ffffff;
+    left: 21%;
+    border: 1px solid #ffffff;
+}
+
+.nombre h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 300%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.nombre h2 {
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+.nombre h1, h2 {
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+.color_01 {
+    color: #0ec0c4;
+}
+
+.color_02 {
+    color: #cf2180;
+}
+
+.color_03 {
+    color: #ad74c3;
+}
+
+.color_04 {
+    color: #cccccc;
+}
+
+.font_01 {
+    font-family: 'Righteous', cursive;
+}
+
+.descripcion {
+    width: 38%;
+    height: 59%;
+    background-color: #333333;
+    left: 62%;
+    border: 1px solid #ffffff;
+}
+
+.descripcion h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 200%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    text-align: center;
+    float: left;
+    color: #ffffff;
+}
+
+.descripcion p {
+    margin-top: 15%;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 120%;
+    color: #ffffff;
+}
+
+.informacion {
+    width: 38%;
+    height: 59%;
+    background-color: #fff;
+    top: 41%;
+}
+
+.contacto {
+    width: 40%;
+    height: 40%;
+    background-color: #fff;
+    top: 60%;
+    left: 39%;
+}
+
+.enlaces {
+    width: 20%;
+    height: 40%;
+    background-color: #fff;
+    top: 60%;
+    left: 80%;
+}
+
+.foto, .nombre, .descripcion, .informacion, .contacto, .enlaces {
+    position: absolute;
+    border-radius: 10px;
+}
