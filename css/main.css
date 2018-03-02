@@ -12,8 +12,7 @@ body {
     width: 100%;
     height: 100%;
     float: left;
-    background: url("../img/background_01.jpg");
-    background-repeat: no-repeat;
+    background-color: #ffffff;
 }
 
 .contenedor {
@@ -35,10 +34,10 @@ body {
 .nombre {
     width: 40%;
     height: 40%;
-    background-color: #1c1d1f;
+    background-color: #002a3a;
     color: #ffffff;
     left: 21%;
-    border: 1px solid #ffffff;
+    
 }
 
 .nombre h1 {
@@ -89,9 +88,8 @@ body {
 .descripcion {
     width: 38%;
     height: 59%;
-    background-color: #333333;
+    background-color: #002a3a;
     left: 62%;
-    border: 1px solid #ffffff;
 }
 
 .descripcion h1 {
@@ -119,9 +117,9 @@ body {
     height: 59%;
     background-color: #fff;
     top: 41%;
-    border: 1px solid #ffffff;
+
     color: #1c1d1f;
-    background-color: #333333;
+    background-color: #002a3a;
 }
 
 .informacion h1 {
@@ -165,8 +163,7 @@ a {
 .contacto {
     width: 40%;
     height: 40%;
-    background-color: #1c1d1f;
-    border: 1px solid #ffffff;
+    background-color: #002a3a;
     top: 60%;
     left: 39%;
 }
@@ -226,7 +223,7 @@ a {
 .enlaces {
     width: 10%;
     height: 20%;
-    background-color: #1c1d1f;
+    background-color: #002a3a;
     top: 60%;
     left: 80%;
     padding: 5%;
@@ -242,7 +239,21 @@ a {
     margin-top:5%;
 }
 
-.foto, .nombre, .descripcion, .informacion, .contacto, .enlaces {
+.foto, .nombre, .descripcion, .informacion, .contacto, .enlaces, footer {
     position: absolute;
     border-radius: 10px;
+}
+
+footer {
+    background: url("../img/icon_01.png");
+    background-size: 36%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #002a3a;
+    width: 22%;
+    height: 18%;
+    top: 41%;
+    left: 39%;
+    transition: .2s;
+    cursor: pointer;
 }

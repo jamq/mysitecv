@@ -1,0 +1,46 @@
+footer:hover {
+    transition: .2s;
+    background-size: 30%;
+}
+
+@keyframes arriba {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes abajo {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.enlaces {  
+    animation: 2s ease-out 0s 1 abajo;
+}
+
+.informacion {  
+    animation: 2s ease-out 0s 1 abajo;
+}
+
+.contacto {  
+    animation: 2s ease-out 0s 1 abajo;
+}
+
+.descripcion {  
+    animation: 2s ease-out 0s 1 arriba;
+}
+
+.foto {  
+    animation: 2s ease-out 0s 1 arriba;
+}
+
+.nombre {  
+    animation: 2s ease-out 0s 1 arriba;
+}
