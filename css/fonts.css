@@ -7,13 +7,3 @@
     font-family: 'Righteous';
     src: url('../fonts/Righteous-Regular.ttf');
 }
-
-@font-face {
-    font-family: 'Calligraffitti';
-    src: url('../fonts/Calligraffitti-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'Overpass Mono';
-    src: url('../fonts/OverpassMono-Regular.ttf');
-}

@@ -3,44 +3,131 @@ footer:hover {
     background-size: 30%;
 }
 
-@keyframes arriba {
+@keyframes p1 {
+    0% {
+        transform: translate(-200%, -200%);
+    }
+    50% {
+        transform: translate(-200% ,0);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+
+}
+
+@keyframes p2 {
+    0% {
+        transform: translate(-100%, -100%);
+    }
+    50% {
+        transform: translate(-100% ,0);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+
+}
+
+@keyframes p3 {
     0% {
         transform: translateY(-100%);
     }
-    100% {
-        transform: translateY(0);
+    50% {
+        transform: translateY(-70%);
     }
+    100% {
+        transform: translateY(0%);
+    }
+
 }
 
-@keyframes abajo {
+@keyframes p4 {
     0% {
         transform: translateY(100%);
     }
-    100% {
-        transform: translateY(0);
+    50% {
+        transform: translateY(70%);
     }
+    100% {
+        transform: translateY(0%);
+    }
+
 }
 
-.enlaces {  
-    animation: 2s ease-out 0s 1 abajo;
+@keyframes p5 {
+    0% {
+        transform: translate(200%, 200%);
+    }
+    50% {
+        transform: translate(200% ,0);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+
 }
 
-.informacion {  
-    animation: 2s ease-out 0s 1 abajo;
+@keyframes p6 {
+    0% {
+        transform: translate(100%, 100%);
+    }
+    50% {
+        transform: translate(100% ,0);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+
 }
 
-.contacto {  
-    animation: 2s ease-out 0s 1 abajo;
+.foto { 
+    animation: 3s 0s 1 p1;
+}
+.nombre { 
+    animation: 3s 0s 1 p2;
+}
+.descripcion { 
+    animation: 3s 0s 1 p3;
+}
+.informacion { 
+    animation: 3s 0s 1 p4;
+}
+.enlaces { 
+    animation: 3s 0s 1 p5;
+}
+.contacto { 
+    animation: 3s 0s 1 p6;
 }
 
-.descripcion {  
-    animation: 2s ease-out 0s 1 arriba;
+/*#contenedor:hover .foto {
+    left: 40%;
+    animation: 2s 0s 1 p1;
+}*/
+/*
+#contenedor:hover .nombre {
+    left: 62%;
+    width: 38%;
+    animation: 2s 0s 1 p1;
 }
 
-.foto {  
-    animation: 2s ease-out 0s 1 arriba;
+#contenedor:hover .informacion {
+    top: 0%;
+    animation: 2s 0s 1 p4;
 }
 
-.nombre {  
-    animation: 2s ease-out 0s 1 arriba;
+#contenedor:hover .descripcion {
+    bottom: 0%;
+    animation: 2s 0s 1 p3;
 }
+
+#contenedor:hover .contacto {
+    left: 0%;
+    width: 38%;
+    animation: 2s 0s 1 p2;
+}
+
+#contenedor:hover .enlaces {
+    left: 40%;
+    animation: 2s 0s 1 p2;
+}*/

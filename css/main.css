@@ -29,6 +29,7 @@ body {
     background: url("../img/photo_01.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    left: 39%;
 }
 
 .nombre {
@@ -36,7 +37,7 @@ body {
     height: 40%;
     background-color: #002a3a;
     color: #ffffff;
-    left: 21%;
+    left: 60%;
     
 }
 
@@ -89,7 +90,8 @@ body {
     width: 38%;
     height: 59%;
     background-color: #002a3a;
-    left: 62%;
+    right: 0%;
+    bottom: 0%;
 }
 
 .descripcion h1 {
@@ -116,8 +118,8 @@ body {
     width: 38%;
     height: 59%;
     background-color: #fff;
-    top: 41%;
-
+    top: 0%;
+    left: 0%;
     color: #1c1d1f;
     background-color: #002a3a;
 }
@@ -126,7 +128,7 @@ body {
     font-family: 'Righteous', cursive;
     font-size: 200%;
     padding-top: 5%;
-    padding-bottom: 1%;
+    padding-bottom: 5%;
     width: 100%;
     text-align: center;
     float: left;
@@ -150,8 +152,7 @@ body {
     font-weight: bold;
 }
 
-.informacion div span {
-    zoom: 1.5;
+.informacion div .fas {
     margin-right: 5%;
 }
 
@@ -164,8 +165,8 @@ a {
     width: 40%;
     height: 40%;
     background-color: #002a3a;
-    top: 60%;
-    left: 39%;
+    bottom: 0%;
+    left: 0%;
 }
 
 .contacto h1 {
@@ -225,18 +226,9 @@ a {
     height: 20%;
     background-color: #002a3a;
     top: 60%;
-    left: 80%;
+    left: 41%;
     padding: 5%;
     border: 1px solid ffffff;
-}
-
-.enlaces span {
-    width: 50%;
-    height: 50%;
-    float: left;
-    text-align: center;
-    zoom: 3;
-    margin-top:5%;
 }
 
 .foto, .nombre, .descripcion, .informacion, .contacto, .enlaces, footer {
