@@ -1,14 +1,9 @@
-footer:hover {
-    transition: .2s;
-    background-size: 30%;
-}
-
 @keyframes p1 {
     0% {
-        transform: translate(-200%, -200%);
+        transform: translate(-50%, -50%) ;
     }
     50% {
-        transform: translate(-200% ,0);
+        transform: translate(-50% ,0);
     }
     100% {
         transform: translateX(0%);
@@ -18,10 +13,22 @@ footer:hover {
 
 @keyframes p2 {
     0% {
-        transform: translate(-100%, -100%);
+        transform: translateY(-100%) rotate(0deg);
+        border-radius: 50%;
+    }
+    100% {
+        transform: translateY(0%) rotate(360deg);
+        border-radius: 0%;
+    }
+
+}
+
+@keyframes p3 {
+    0% {
+        transform: translate(50%, -50%);
     }
     50% {
-        transform: translate(-100% ,0);
+        transform: translate(50%, 0);
     }
     100% {
         transform: translateX(0%);
@@ -29,25 +36,12 @@ footer:hover {
 
 }
 
-@keyframes p3 {
-    0% {
-        transform: translateY(-100%);
-    }
-    50% {
-        transform: translateY(-70%);
-    }
-    100% {
-        transform: translateY(0%);
-    }
-
-}
-
 @keyframes p4 {
     0% {
-        transform: translateY(100%);
+        transform: translate(-50%, 50%);
     }
     50% {
-        transform: translateY(70%);
+        transform: translate(-50%, 0);
     }
     100% {
         transform: translateY(0%);
@@ -57,10 +51,10 @@ footer:hover {
 
 @keyframes p5 {
     0% {
-        transform: translate(200%, 200%);
+        transform: translate(50%, 50%);
     }
     50% {
-        transform: translate(200% ,0);
+        transform: translate(50% ,0);
     }
     100% {
         transform: translateX(0%);
@@ -70,64 +64,29 @@ footer:hover {
 
 @keyframes p6 {
     0% {
-        transform: translate(100%, 100%);
-    }
-    50% {
-        transform: translate(100% ,0);
+        transform: translateY(100%);
     }
     100% {
-        transform: translateX(0%);
+        transform: translateY(0%);
     }
 
 }
 
-.foto { 
+.item:nth-of-type(1) { 
     animation: 3s 0s 1 p1;
 }
-.nombre { 
+.item:nth-of-type(2) { 
     animation: 3s 0s 1 p2;
 }
-.descripcion { 
+.item:nth-of-type(3) { 
     animation: 3s 0s 1 p3;
 }
-.informacion { 
+.item:nth-of-type(4) { 
     animation: 3s 0s 1 p4;
 }
-.enlaces { 
+.item:nth-of-type(7) { 
     animation: 3s 0s 1 p5;
-}
-.contacto { 
+} 
+.item:nth-of-type(6) { 
     animation: 3s 0s 1 p6;
 }
-
-/*#contenedor:hover .foto {
-    left: 40%;
-    animation: 2s 0s 1 p1;
-}*/
-/*
-#contenedor:hover .nombre {
-    left: 62%;
-    width: 38%;
-    animation: 2s 0s 1 p1;
-}
-
-#contenedor:hover .informacion {
-    top: 0%;
-    animation: 2s 0s 1 p4;
-}
-
-#contenedor:hover .descripcion {
-    bottom: 0%;
-    animation: 2s 0s 1 p3;
-}
-
-#contenedor:hover .contacto {
-    left: 0%;
-    width: 38%;
-    animation: 2s 0s 1 p2;
-}
-
-#contenedor:hover .enlaces {
-    left: 40%;
-    animation: 2s 0s 1 p2;
-}*/
